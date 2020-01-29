@@ -1,0 +1,20 @@
+package curso_programacao;
+
+import java.util.Scanner;
+
+public class Matriz {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Digite a ordem da matiz: ");
+		int N = sc.nextInt();
+		
+		
+		
+		sc.close();
+
+	}
+
+}

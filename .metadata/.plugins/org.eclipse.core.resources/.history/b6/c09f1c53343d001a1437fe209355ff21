@@ -1,0 +1,23 @@
+package curso_programacao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Lista {
+
+	public static void main(String[] args) {
+		
+		List <String> lst = new ArrayList<>();
+		
+		lst.add("Joao");
+		lst.add("Jose");
+		lst.add("Maria");
+		lst.add("Suelen");
+		lst.add("Victor");
+		lst.add("Carlos");
+		
+	    System.out.println(lst.get(1));
+
+	}
+
+}

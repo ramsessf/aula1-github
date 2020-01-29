@@ -1,0 +1,51 @@
+package curso_programacao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Lista {
+
+	public static void main(String[] args) {
+		
+		List <String> lst = new ArrayList<>();
+		
+		//Insere elementos na lista
+		lst.add("Joao");
+		lst.add("Jose");
+		lst.add("Maria");
+		lst.add("Suelen");
+		lst.add("Victor");
+		lst.add("Carlos");
+		
+		lst.add(2,"Maurides");
+		
+	    System.out.println(lst.get(1)); //retorna o elemento da posicao indicada
+	    
+	    System.out.println(lst.size()); // retorna o tamanho da lista
+	   
+	    System.out.println(lst.remove(2)); //remove elementos por posicao, referencia ou condicao
+	    System.out.println(lst.remove("Maria"));
+	    System.out.println(lst.removeIf(x -> x.charAt(0) == 'M'));
+	    
+	    
+	    for (String obj : lst) {
+	      System.out.println(obj);
+	    }
+	    
+	    for(int i = 0; i < lst.size(); i++) {
+	    	
+	    	lst.get(i);
+	    	
+	    }
+	    
+	    System.out.println(lst);
+	    
+	    System.out.println("----------------------------------------------");
+	    
+	    List <Integer> lst2 = new ArrayList<>();
+	    
+	    
+
+	}
+
+}
