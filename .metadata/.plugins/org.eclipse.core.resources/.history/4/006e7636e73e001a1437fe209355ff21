@@ -1,0 +1,28 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Main4 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		List<Integer> lst = new ArrayList<>();
+
+		for (int i = 0; i < N; i++) {
+			System.out.print("Digite um numero: ");
+			double x = sc.nextDouble();
+			
+			System.out.print("Digite um numero: ");
+			double y = sc.nextDouble();
+
+		}
+
+		sc.close();
+
+	}
+
+}
